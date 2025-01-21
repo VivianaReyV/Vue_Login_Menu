@@ -1,0 +1,57 @@
+{
+    "Usuarios": [
+      {
+        "name": "Administrar usuarios",
+        "route": "/users-index/false",
+        "operacion": "users%user%index",
+        "icon": "person"
+      },
+      {
+        "name": "Administrar perfiles",
+        "route": "/roles-index",
+        "operacion": "roles%roles%index",
+        "icon": "people"
+      },
+      {
+        "name": "Administrar operaciones",
+        "route": "/operations-index",
+        "operacion": "roles%roles-operaciones%index",
+        "icon": "build"
+      }
+    ],
+    "Correspondencia": [
+      {
+        "name": "Distribución y Envío",
+        "route": "/distribution-shipping-index",
+        "operacion": "radicacion%distribuciony-envio%index",
+        "icon": "dynamic_feed"
+      },
+      {
+        "name": "Reasignación masiva",
+        "route": "/mass-reassignment-index",
+        "operacion": "radicacion%reasignacion-radicado%index",
+        "icon": "library_add_check"
+      },
+      {
+        "name": "Anulación",
+        "route": "/annulment-index",
+        "operacion": "radicacion%anulacion%index",
+        "icon": "pan_tool"
+      }
+    ],
+    "Radicación": [
+      {
+        "name": "Radicación estándar",
+        "route": "/filing-index/false",
+        "operacion": "radicacion%radicados%index",
+        "icon": "description"
+      },
+      {
+        "name": "Radicación correo e.",
+        "route": "/filing-email-index",
+        "operacion": "radicacion%radicacion-email%login-email",
+        "icon": "contact_mail"
+      }
+    ]
+  }
+  
